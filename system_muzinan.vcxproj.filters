@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="system_muzinan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system_muzinanDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system_muzinanView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDisplayView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassicalDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMd5Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStreamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPublicKeyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCdhDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="system_muzinan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system_muzinanDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system_muzinanView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisplayView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassicalDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMd5Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="classicalcipher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CStreamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPublicKeyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCdhDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="streamcipher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blockcipher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="publickey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="playfair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="systemmuzinan.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\systemmuzinan.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\system_muzinanDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\system_muzinan.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\10001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png\10007.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\10007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10001~1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10002~1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10003~1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10004.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10004~1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10005.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10006.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10007.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10008.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\10009.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico\10005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\bitmap16.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\alice.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\bob.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="md5test.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="prime.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
